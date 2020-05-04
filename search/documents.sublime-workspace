@@ -1,0 +1,440 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"des",
+				"description"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"Pro",
+				"ProdDocuemnt"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"asset",
+				"assetid"
+			],
+			[
+				"jso",
+				"json_req"
+			],
+			[
+				"res",
+				"res_handle"
+			],
+			[
+				"que",
+				"queue_url"
+			],
+			[
+				"min",
+				"minutes"
+			],
+			[
+				"start",
+				"startFirstFunction"
+			],
+			[
+				"new",
+				"newList"
+			],
+			[
+				"max",
+				"maxCnt"
+			],
+			[
+				"st",
+				"stime"
+			],
+			[
+				"file",
+				"fileTime"
+			],
+			[
+				"tena",
+				"tenant"
+			],
+			[
+				"te",
+				"tenant"
+			],
+			[
+				"tenant",
+				"tenant"
+			],
+			[
+				"tenan",
+				"tenantID"
+			],
+			[
+				"avg",
+				"avgHr"
+			],
+			[
+				"Avg",
+				"avgCnt"
+			],
+			[
+				"Que",
+				"QueryExecutionId"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"grou",
+				"grouped"
+			],
+			[
+				"su",
+				"sumhr"
+			],
+			[
+				"ma",
+				"maxhr"
+			],
+			[
+				"hr",
+				"hrcnt"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"s",
+				"strip"
+			],
+			[
+				"dat",
+				"date_time_obj"
+			],
+			[
+				"c",
+				"count"
+			],
+			[
+				"log",
+				"logdata"
+			],
+			[
+				"js",
+				"json_output"
+			],
+			[
+				"inte",
+				"integ_secret"
+			],
+			[
+				"s3",
+				"s3_ouput"
+			],
+			[
+				"print_Fun",
+				"print_Fun2"
+			],
+			[
+				"test",
+				"testdatabase"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 171.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/search/views.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/ecommerce/settings.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/search/documents.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/search/search.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/test_elastic/test_elastic/urls.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/test_elastic/book/admin.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/test_elastic/book/models.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/test_elastic/book/templates/search/search.html",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/test_elastic/test_elastic/settings.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/test_elastic/test_elastic/views.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/poc-django-elasticsearch/auto_complete/urls.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/products/search_indexes.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/test_elastic/book/search_index.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/test_elastic/book/templates/search/book_text.txt",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/poc-django-elasticsearch/auto_complete/settings.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/search/urls.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/products/models.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/ecommerce/urls.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/poc-django-elasticsearch/interface/views.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/poc-django-elasticsearch/poc-indexer/products.json",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/poc-django-elasticsearch/poc-indexer/main.py",
+		"/C/Temp/Temp1_products.json.zip/products.json",
+		"/C/Users/ux8ptt/Django-Projects/REST_API_UPA/Cluster Codes/athenaPyFetch-Dynamo-Sender.py",
+		"/C/Users/ux8ptt/Django-Projects/REST_API_UPA/Cluster Codes/test_for_queue_polling.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/search/templates/search.html",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/search/models.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/templates/base.html",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/products/templates/products.html",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/products/views.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/cart/templates/cart.html",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/cart/urls.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/cart/views.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/home/urls.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/checkout/templates/checkout.html",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/search/tests.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/search/apps.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/search/admin.py",
+		"/C/Users/ux8ptt/Desktop/Files/Codes/Que-1.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/checkout/views.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/checkout/urls.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/checkout/models.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/accounts/urls.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/accounts/urls_reset.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/accounts/views.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/manage.py",
+		"/C/Users/ux8ptt/Django-Projects/Alibaba-Proj/ecommerce/custom_storages.py",
+		"/C/Users/ux8ptt/Desktop/del.py",
+		"/C/Users/ux8ptt/Desktop/Del/test.html",
+		"/C/Users/ux8ptt/Desktop/Del/CloudWatch Management Console.html",
+		"/C/Users/ux8ptt/Desktop/CppProperties.json",
+		"/D/Atharva/March/24th Mar, Tuesday/athenaPyFetch-Dynamo-Sender.py",
+		"/C/Program Files/Git/ReleaseNotes.html",
+		"/E/Transfer/loginpage.html",
+		"/C/Users/ux8ptt/Django-Projects/drf-sample-master-test/main/views.py",
+		"/C/Users/ux8ptt/Django-Projects/REST_API_UPA/RESTApp/views.py",
+		"/C/Users/ux8ptt/Desktop/.vs/VSWorkspaceState.json",
+		"/C/Users/ux8ptt/Desktop/.vs/ProjectSettings.json",
+		"/D/Atharva/January/22nd Jan, Wednesday/1 generateLogs.py",
+		"/C/Users/ux8ptt/Desktop/testCovid/COVID-19 Tracker _ India_files/js",
+		"/D/Atharva/March/23rd Mar, Monday/athenaPyFetch-Dynamo-Sender.py",
+		"/D/Atharva/March/23rd Mar, Monday/csvReadAdvanced.py",
+		"/D/Atharva/February/17th Feb, Monday/ipTestPy.py",
+		"/D/Atharva/February/18th Feb, Tuesday/csvFile.py",
+		"/D/Atharva/February/18th Feb, Tuesday/csvread.py",
+		"/D/Atharva/February/18th Feb, Tuesday/ipTestPy.py",
+		"/D/Atharva/February/19th Feb, Wednesday/csvread.py",
+		"/D/Atharva/February/25th Feb, Tuesday/csvReadAdvanced.py",
+		"/D/Atharva/February/25th Feb, Tuesday/athenaPyFetch-working-for-myCred.py",
+		"/D/Atharva/February/25th Feb, Tuesday/athenaPyFetch.py",
+		"/D/Atharva/February/24th Feb, Monday/test.json",
+		"/D/Atharva/February/24th Feb, Monday/csvReadAdvanced.py",
+		"/D/Atharva/February/24th Feb, Monday/csvread.py",
+		"/D/Atharva/February/24th Feb, Monday/cleanCSVRead.py",
+		"/D/Atharva/February/19th Feb, Wednesday/ipTestPy.py",
+		"/D/Atharva/February/10th Feb, Monday/athenaPyFetch.py",
+		"/D/Atharva/February/26th Feb, Wednesday/csvReadAdvanced.py",
+		"/D/Atharva/March/20th Mar, Friday/athenaPyFetch-Dynamo-Sender-for-1-day.py",
+		"/D/Atharva/March/19th Mar, Thursday/every-5-min.py",
+		"/D/Atharva/March/18th Mar, Wednesday/athenaPyFetch-Dynamo-Sender.py",
+		"/D/Atharva/March/19th Mar, Thursday/athenaPyFetch-Dynamo-Sender-for-1-day.py",
+		"/D/Atharva/March/17th Mar, Tuesday/athenaPyFetch-Dynamo-Sender.py",
+		"/D/Atharva/March/17th Mar, Tuesday/test.py",
+		"/D/Atharva/March/16th Mar, Monday/athenaPyFetch-Dynamo-Sender.py",
+		"/D/Atharva/March/4th Mar, Wednesday/athenaPyFetch-Dynamo-Sender.py",
+		"/D/Atharva/March/4th Mar, Wednesday/dynamoSenderEffi.py",
+		"/D/Atharva/March/4th Mar, Wednesday/del.py",
+		"/D/Atharva/March/3rd Mar, Tuesday/athenaPyFetch-Dynamo-Sender.py",
+		"/D/Atharva/March/3rd Mar, Tuesday/createPerfectDynamoJSON.py",
+		"/D/Atharva/March/2nd Mar, Monday/athenaPyFetch-Dynamo-Sender.py",
+		"/D/Atharva/March/2nd Mar, Monday/createPerfectDynamoJSON.py",
+		"/D/Atharva/March/2nd Mar, Monday/createPerfectDYnampJSON.py",
+		"/D/Atharva/February/28th Feb, Friday/getDynamoSimple.py",
+		"/D/Atharva/February/28th Feb, Friday/athenaPyFetch-Dynamo-Sender.py",
+		"/D/Atharva/February/27th Feb, Thursday/athenaPyFetch-Dynamo-Sender.py",
+		"/D/Atharva/February/27th Feb, Thursday/getDynamoConditionbased.py",
+		"/D/Atharva/February/28th Feb, Friday/getDynamoConditionbased.py",
+		"/D/Atharva/February/27th Feb, Thursday/jsonNewFile.json",
+		"/D/Atharva/February/27th Feb, Thursday/finalResponse.json",
+		"/D/Atharva/February/25th Feb, Tuesday/json/normalJSON.JSON",
+		"/D/Atharva/February/25th Feb, Tuesday/json/dynamoJSON.JSON",
+		"/D/Atharva/February/25th Feb, Tuesday/del.py",
+		"/D/Atharva/February/25th Feb, Tuesday/test.py",
+		"/D/Atharva/February/26th Feb, Wednesday/Final Working Scripts/getDynamoConditionbased.py",
+		"/D/Atharva/February/26th Feb, Wednesday/Final Working Scripts/athenaPyFetch-Console-Result-Printer.py",
+		"/D/Atharva/February/26th Feb, Wednesday/getDynamoConditionbased.py",
+		"/D/Atharva/February/26th Feb, Wednesday/athenaPyFetch-Dynamo-Sender.py",
+		"/D/Atharva/February/26th Feb, Wednesday/jsonNewFile.json",
+		"/D/Atharva/February/26th Feb, Wednesday/normalJSON.JSON",
+		"/D/Atharva/February/26th Feb, Wednesday/getDynamo.py",
+		"/D/Atharva/February/11th Feb, Tuesday/athenaPyFetch.py",
+		"/D/Atharva/February/26th Feb, Wednesday/writeDynamo.py",
+		"/D/Atharva/February/26th Feb, Wednesday/athenaPyFetch-Console-Result-Printer.py",
+		"/D/Atharva/February/25th Feb, Tuesday/writeDynamo.py",
+		"/D/Atharva/February/26th Feb, Wednesday/athenaPyFetch-working-for-myCred.py",
+		"/D/Atharva/February/26th Feb, Wednesday/testdel.py",
+		"/D/Atharva/February/10th Feb, Monday/athenaPyFetch-working-for-myCred.py",
+		"/D/Atharva/February/11th Feb, Tuesday/testPyAthena.py",
+		"/D/Atharva/February/25th Feb, Tuesday/normalJSON.JSON",
+		"/D/Atharva/February/25th Feb, Tuesday/dynamoJSON.JSON",
+		"/D/Atharva/February/25th Feb, Tuesday/pynamodb.py",
+		"/C/Users/ux8ptt/AppData/Roaming/Python/Python37/site-packages/pandas/core/generic.py",
+		"/D/Atharva/February/19th Feb, Wednesday/del.py",
+		"/D/Atharva/February/17th Feb, Monday/testPyAThena.py",
+		"/D/Atharva/February/11th Feb, Tuesday/relToJSON.py",
+		"/D/Atharva/February/12th Feb, Wednesday/proc.py",
+		"/D/Atharva/February/10th Feb, Monday/testPyAthena.py",
+		"/C/Users/ux8ptt/Documents/My Received Files/DataProcMultiTred.py",
+		"/C/Users/ux8ptt/Documents/My Received Files/b_DataProcMultiTred.py"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "documents.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

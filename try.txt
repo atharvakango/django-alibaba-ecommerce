@@ -1,0 +1,27 @@
+<!-- {% extends 'base.html' %} -->
+<!-- 
+<form method="get">
+	<input type="text" id="q"  placeholder="search here" name="q">
+
+</form> -->
+<!-- {% block content %}
+<div class="container">
+        <div class="display row">
+            <div class="col-xs-6 col-sm-4">
+            <form method="get" class="form-inline">
+                <input type="text" id="q"  placeholder="search here" name="q">
+                <button type="search" class="btn btn-info"> <i class="fa fa-search"></i> </button>
+            </form>
+            </div>
+        </div>
+
+
+{%for i in products %}
+	{{i.name}}
+	{{i.description}}
+	<br>
+{% endfor %}
+
+{% endblock %}
+
+ -->

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h3>Your Profile</h3>
+    <p>You are logged in as <strong> {{ user.username }} </strong> </p>
+    <p>Your Email is <strong> {{ user.email }} </strong> </p>
+</div>
+{% endblock %}

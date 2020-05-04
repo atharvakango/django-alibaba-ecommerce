@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding-top: 60px;
+}
+
+.icon-bar {
+    background-color: #fff;
+}
+
+.accountform {
+    padding-top: 20px;
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+    background-color: #c67605;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+
+.mb-3 {
+    margin-bottom: 30px;
+}
+
+.p-3 {
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.color-white {
+    color: white !important;
+}
+
+.bg-lite {
+    background-color: #D0D0D9;
+}
+
+.background {
+    
+    width: 50%;
+    line-height: 100px;
+    color: white;
+}
+
+.background h2 {
+    margin-left: 10%;
+}
+
+.product {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+caption p {
+    word-wrap: break-word;
+}
+
+.row.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.panel-default {
+    border-color: transparent;
+    padding: 0 10px;
+}
+
+.panel-body {
+    height: 100%;
+    border: 1px solid #ddd;
+}
+
+.product-description {
+    min-height: 40px;
+}
+
+
+div.feat {
+    color: yellow;
+}
+
+.banner {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.carousel-caption {
+width:300px;
+z-index:10;
+color:#000;
+text-align:center;
+top:50%;
+left:65%;
+bottom:auto;
+-webkit-transform:translate(0, -50%);
+-ms-transform:translate(0, -50%);
+transform:translate(0, -50%);
+}
+
+.product-btn {
+    display: inline-block;
+    padding: 6px 4px;
+    margin-top: 20px;
+    border: 1px solid purple;
+    border-radius: 3px;
+}
+
+.product-btn:hover {
+    text-decoration: none;
+    background-color: rgb(39, 73, 56);;
+}
+
+.show-product,
+.featured-card {
+    position: relative;
+    color: purple;
+}
+
+.card-header {
+    position: absolute;
+    top: 30px;
+    background-color: rgba(63, 191, 127, 0.6);
+    width: 50%;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+
+.product-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(63, 191, 127, 0.6);
+    width: 60%;
+    height:60%;
+    border-radius: 10px;
+    text-align: center
+}
+
+.apps-download img {
+    max-width: 100%;
+}
+
+/* Section Deals */
+
+.deals-section {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deals-section h3 {
+    font-size: 4rem;
+   
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.countdown .timer {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid white;
+}
+
+.disc-section .discount {
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.sm-carousel {
+    padding-left: 0;
+}
+
+.caption2 {
+    width: 200px;
+    left: 50%;
+}
+
+.desc-heading {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 8px;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.feature-content h6 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #ededed;
+    color: #A9A9A9;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 700px) {
+  .carousel-caption {
+    width:100px;
+    top:50%;
+    left:65%;
+    bottom:auto;
+
+    }
+
+    .carousel-caption h2 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p {
+        display: none;
+    }
+}

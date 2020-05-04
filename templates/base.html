@@ -1,0 +1,198 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="{% static 'font-awesome/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    {% block head_js %}
+    {% endblock head_js %}
+
+</head>
+<body>
+    <!-- Fixed masthead -->
+    <nav class="navbar navbar-masthead navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"> ATOZ </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    {% if user.is_authenticated %}
+                        <li><a href="{% url 'profile' %}"> <i class="fa fa-user"></i> Profile</a></li>
+                        <li><a href="{% url 'logout' %}"> <i class="fa fa-sign-out"></i> Log Out</a></li>
+                    {%  else %}
+                        <li><a href="{% url 'register' %}"> <i class="fa fa-user-plus"></i> Register</a></li>
+                        <li><a href="{% url 'login' %}"> <i class="fa fa-sign-in"></i> Log In</a></li>
+                    {% endif %}
+                    <li>
+                        <a href="{% url 'view_cart' %}">
+                            <i class="fa fa-shopping-cart"></i> Cart
+                            {% if product_count > 0 %}
+                            <label class="badge badge-warning">{{ product_count }}</label>
+                            {% endif %}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    {% if messages %}
+        <div class="alert alert-success">
+            <div class="messages">
+                {% for message in messages %}
+                    {{ message }}
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+    
+
+    {% block content %} {% endblock %}
+    
+
+    <!-- Footer Area -->
+    <footer class="footer_area white-footer p-3">
+      <div class="container">
+        <div class="row">
+          <!-- Single Footer Area -->
+          <div class="col-12 col-sm-6 col-md-5 col-lg-4 p-3">
+            <div class="single_footer_area mb-100">
+              <div class="footer_heading mb-4">
+                <h6>Contact Us</h6>
+              </div>
+              <ul class="footer_content">
+                <li><span>Address:</span> Lords, London, UK - 1259</li>
+                <li><span>Phone:</span> 002 63695 24624</li>
+                <li><span>FAX:</span> 002 78965 369552</li>
+                <li><span>Email:</span> support@example.com</li>
+              </ul>
+              <div class="footer_social_area mt-15">
+                <a href="#"
+                  ><i class="fa fa-facebook fa-lg" aria-hidden="true"></i
+                ></a>
+                <a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                <a href="#"
+                  ><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa fa-dribbble fa-lg" aria-hidden="true"></i
+                ></a>
+                <a href="#"><i class="fa fa-rss fa-lg" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Footer Area -->
+          <div class="col-12 col-sm-6 col-md col-lg-4 col-xl-2">
+            <div class="single_footer_area mb-100">
+              <div class="footer_heading mb-4">
+                <h6>Information</h6>
+              </div>
+              <ul class="footer_widget_menu">
+                <li>
+                  <a href="#"
+                    ><i class="icofont-rounded-right"></i> Your Account</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="icofont-rounded-right"></i> Free Shipping
+                    Policy</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="icofont-rounded-right"></i> Your Cart</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="icofont-rounded-right"></i> Return Policy</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="icofont-rounded-right"></i> Free Coupon</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="icofont-rounded-right"></i> Delivary Info</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Single Footer Area -->
+          <div class="col-12 col-sm-6 col-md col-lg-4 col-xl-2">
+            <div class="single_footer_area mb-100">
+              <div class="footer_heading mb-4">
+                <h6>Account</h6>
+              </div>
+              <ul class="footer_widget_menu">
+                <li>
+                  <a href="#"
+                    ><i class="icofont-rounded-right"></i> Product Support</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="icofont-rounded-right"></i> Terms &amp;
+                    Conditions</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="icofont-rounded-right"></i> Help</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="icofont-rounded-right"></i> Payment Method</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="icofont-rounded-right"></i> Affiliate Program</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="icofont-rounded-right"></i> Privacy Policy</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+    
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 400, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000 // values from 0 to 3000, with step 50ms
+      });
+  </script>
+</body>

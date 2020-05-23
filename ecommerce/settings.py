@@ -55,7 +55,7 @@ INSTALLED_APPS = [
 
 ELASTICSEARCH_DSL = {
 	'default': {
-		'hosts': 'localhost:9200'
+		'hosts': 'kp-sg-ees1197gh0808rxku.public.elasticsearch.aliyunics.com'
 	},
 }
 
